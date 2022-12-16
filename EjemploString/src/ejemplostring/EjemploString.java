@@ -16,6 +16,8 @@ public class EjemploString {
     public static void main(String[] args) {
         // TODO code application logic here
         
+       /* Aquí explicamos los strings
+        
         String name= "Javi";
         String example = "Tengo un texto 6789654";
         
@@ -25,6 +27,27 @@ public class EjemploString {
         System.out.println("Retorno de carro \r" +name);
         System.out.println("Nueva linea \'" + name +"\'");
         System.out.println(example);
+       */
+       
+       String str1 ="Hola";
+       String str2 = "Mundo";
+       
+       //using concat
+       
+       String str3=str1.concat(str2);
+       System.out.println(str3);
+       
+       //Using "+" operator
+       
+       String str4=str1+str2;
+       System.out.println(str4);
+       
+       String str5=str1 + " " + str2;
+       System.out.println(str5);
+       
+       int myNumber = 10;
+       String str6=str1 + myNumber;
+       System.out.println(str6);
     }
     
 }
