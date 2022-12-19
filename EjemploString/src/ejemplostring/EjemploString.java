@@ -54,9 +54,15 @@ public class EjemploString {
        System.out.println("La longitud de la cadena menos 1 : " + (str.length()-1));
        */
        
-       String str= "qwertyuiopasdfghjklñzxcvbnm";
+      /* String str= "qwertyuiopasdfghjklñzxcvbnm";
        System.out.println("Caracter en la posición 10: " + str.charAt(10));
        System.out.println("Index del caracter a: "+ str.indexOf("a"));
-    }
+*/
+      
+      String str = "Este es un ejemplo de búsqueda de cadena de texto";
+      String strSearch= "patata";
+      System.out.println("Contiene la cadena " +strSearch +" : " + str.contains(strSearch));
+
+}
     
 }
