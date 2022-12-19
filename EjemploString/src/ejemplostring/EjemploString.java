@@ -49,10 +49,14 @@ public class EjemploString {
        String str6=str1 + myNumber;
        System.out.println(str6); */
        
-       String str = "Esta cadena es un texto más largo";
+       /*String str = "Esta cadena es un texto más largo";
        System.out.println("La longitud de la cadena : " + str.length());
        System.out.println("La longitud de la cadena menos 1 : " + (str.length()-1));
+       */
        
+       String str= "qwertyuiopasdfghjklñzxcvbnm";
+       System.out.println("Caracter en la posición 10: " + str.charAt(10));
+       System.out.println("Index del caracter a: "+ str.indexOf("a"));
     }
     
 }
