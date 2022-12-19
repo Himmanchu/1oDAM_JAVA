@@ -59,9 +59,20 @@ public class EjemploString {
        System.out.println("Index del caracter a: "+ str.indexOf("a"));
 */
       
-      String str = "Este es un ejemplo de búsqueda de cadena de texto";
-      String strSearch= "patata";
-      System.out.println("Contiene la cadena " +strSearch +" : " + str.contains(strSearch));
+     /* String str = "Este es un ejemplo de búsqueda de cadena de texto";
+      //String strSearch= "patata";
+      //System.out.println("Contiene la cadena " +strSearch +" : " + str.contains(strSearch));
+      
+      String strSearch= "ejemplo";
+      String strReplace="PATATA";
+      System.out.println("Replace " + strSearch + " con el texto " + strReplace + " : "+ str.replace(strSearch, strReplace));
+*/
+     
+     String str = "Palabra";
+     System.out.println("Convertir a mayúsculas : " +str.toUpperCase());
+     System.out.println("Convertir a mayúsculas : " +str.toLowerCase());
+
+
 
 }
     
