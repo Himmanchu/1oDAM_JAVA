@@ -21,7 +21,7 @@ public class EjemploOperadores {
         int c=20;
         int d=25;
         
-        System.out.println("a + b= "+ (a+b));
+       /* System.out.println("a + b= "+ (a+b));
         System.out.println("a - b = "+(a-b));
         System.out.println("a * b = "+(a*b));
         System.out.println("a / b = "+(a/b));
@@ -29,7 +29,17 @@ public class EjemploOperadores {
         
         System.out.println("a + 1 = "+(a+1));
         System.out.println("d++ = "+(d++));
-        System.out.println("++d = "+(++d));
+        System.out.println("++d = "+(++d));*/
+       
+       System.out.println("a == b: " + (a==b));
+       System.out.println("a != b: " + (a!=b));
+       System.out.println("a > b: " + (a>b));
+       System.out.println("!a > b: " + !(a>b));
+       System.out.println("a < b: " + (a<b));
+       System.out.println("a >= b: " + (a>=b));
+       System.out.println("a <= b: " + (a<=b));
+       //b=10;
+       System.out.println("a >= b: " + (a>=b));
     }
     
 }
